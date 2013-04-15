@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE28016D170D31710075BB79 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280137170D31710075BB79 /* bus.png */; };
+		CE28016E170D31710075BB79 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280138170D31710075BB79 /* compass.png */; };
+		CE28016F170D31710075BB79 /* current_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280139170D31710075BB79 /* current_bottom.png */; };
+		CE280170170D31710075BB79 /* current_top.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28013A170D31710075BB79 /* current_top.png */; };
+		CE280171170D31710075BB79 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28013B170D31710075BB79 /* detail.png */; };
+		CE280172170D31710075BB79 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28013C170D31710075BB79 /* favorite.png */; };
+		CE280174170D31710075BB79 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28013E170D31710075BB79 /* ic_launcher.png */; };
+		CE280177170D31710075BB79 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280141170D31710075BB79 /* line.png */; };
+		CE28017B170D31710075BB79 /* more_set_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280145170D31710075BB79 /* more_set_line.png */; };
+		CE28017C170D31710075BB79 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280146170D31710075BB79 /* more.png */; };
+		CE280181170D31710075BB79 /* position.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28014B170D31710075BB79 /* position.png */; };
+		CE280182170D31710075BB79 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28014C170D31710075BB79 /* refresh.png */; };
+		CE280185170D31710075BB79 /* run_current_station.9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28014F170D31710075BB79 /* run_current_station.9.png */; };
+		CE280186170D31710075BB79 /* run_station.9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280150170D31710075BB79 /* run_station.9.png */; };
+		CE28018D170D31710075BB79 /* set_line_more.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280157170D31710075BB79 /* set_line_more.png */; };
+		CE28018E170D31710075BB79 /* set_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280158170D31710075BB79 /* set_line.png */; };
+		CE28018F170D31710075BB79 /* start_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280159170D31710075BB79 /* start_icon.png */; };
+		CE280190170D31710075BB79 /* station_bus_item_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28015A170D31710075BB79 /* station_bus_item_bg.png */; };
+		CE280191170D31710075BB79 /* station.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28015B170D31710075BB79 /* station.png */; };
+		CE280194170D31710075BB79 /* tab_favorite_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28015E170D31710075BB79 /* tab_favorite_icon.png */; };
+		CE280197170D31710075BB79 /* tab_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280161170D31710075BB79 /* tab_line.png */; };
+		CE28019B170D31710075BB79 /* tab_station.png in Resources */ = {isa = PBXBuildFile; fileRef = CE280165170D31710075BB79 /* tab_station.png */; };
+		CE2801A3170D31890075BB79 /* SRTAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2801A0170D31890075BB79 /* SRTAppHelper.m */; };
+		CE2801A4170D31890075BB79 /* SRTResourcesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2801A2170D31890075BB79 /* SRTResourcesHelper.m */; };
+		CE2801AC170DA91F0075BB79 /* SRTStationResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2801AB170DA91F0075BB79 /* SRTStationResultCell.m */; };
+		CE500154170DBDF20082DD6D /* SRTStationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE500152170DBDF20082DD6D /* SRTStationDetailViewController.m */; };
+		CE500155170DBDF20082DD6D /* SRTStationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE500153170DBDF20082DD6D /* SRTStationDetailViewController.xib */; };
+		CE500157170DBF1F0082DD6D /* SRTStationDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE500156170DBF1F0082DD6D /* SRTStationDetailCell.xib */; };
+		CE50015A170DC4680082DD6D /* SRTStationDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE500159170DC4680082DD6D /* SRTStationDetailCell.m */; };
+		CE50015C170E6D1C0082DD6D /* SRTBusNumDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50015B170E6D1C0082DD6D /* SRTBusNumDetailCell.xib */; };
+		CE50015F170E71870082DD6D /* SRTBusNumDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50015E170E71870082DD6D /* SRTBusNumDetailCell.m */; };
+		CE500164170E7B980082DD6D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CE500163170E7B980082DD6D /* JSONKit.m */; };
+		CE5E6B6E170F09DD00E9CB76 /* SRTBusNumSearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5E6B6D170F09DD00E9CB76 /* SRTBusNumSearchResultCell.xib */; };
+		CE5E6B71170F0A0900E9CB76 /* SRTBusNumSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E6B70170F0A0900E9CB76 /* SRTBusNumSearchResultCell.m */; };
+		CE61B88C1711CF380024A81B /* SRTStation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B88B1711CF380024A81B /* SRTStation.m */; };
+		CE61B8901711CF790024A81B /* SRTBusLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B88F1711CF790024A81B /* SRTBusLine.m */; };
+		CE61B8931711D2DA0024A81B /* SRTFavoriteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B8921711D2DA0024A81B /* SRTFavoriteHelper.m */; };
+		CE61B89A1713D95F0024A81B /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B8991713D95F0024A81B /* CustomObject.m */; };
+		CE910976170D290700AD60B0 /* SRTStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE910973170D290700AD60B0 /* SRTStationViewController.m */; };
+		CE910977170D290700AD60B0 /* SRTBusNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE910975170D290700AD60B0 /* SRTBusNumViewController.m */; };
+		CE91098E170D2F7500AD60B0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91098D170D2F7500AD60B0 /* Icon.png */; };
+		CED2861C17179C3600BE2EF8 /* SRTNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2861B17179C3600BE2EF8 /* SRTNetworkHelper.m */; };
+		CED2861E17179C8F00BE2EF8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED2861D17179C8F00BE2EF8 /* SystemConfiguration.framework */; };
+		CED2862117185B6500BE2EF8 /* SRTHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2862017185B6500BE2EF8 /* SRTHttpHelper.m */; };
+		CEE4F0BF171646500058B1BF /* SRTCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F0BE171646500058B1BF /* SRTCacheHelper.m */; };
+		CEE4F0C31716E5B60058B1BF /* SRTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F0C21716E5B60058B1BF /* SRTToolbar.m */; };
+		CEE5C99D170D27AE007A8817 /* SRTFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5C99B170D27AE007A8817 /* SRTFavoriteViewController.m */; };
+		CEE5C99E170D27AE007A8817 /* SRTFavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE5C99C170D27AE007A8817 /* SRTFavoriteViewController.xib */; };
+		CEE5C9A2170D2843007A8817 /* SRTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5C9A0170D2841007A8817 /* SRTMoreViewController.m */; };
+		CEE5C9A3170D2843007A8817 /* SRTMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE5C9A1170D2841007A8817 /* SRTMoreViewController.xib */; };
+		CEF7AF8D170DA98A0039B4DA /* SRTStationResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF7AF8C170DA98A0039B4DA /* SRTStationResultCell.xib */; };
+		CEF7AF91170DBBD10039B4DA /* SRTBusNumDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7AF8F170DBBD10039B4DA /* SRTBusNumDetailViewController.m */; };
+		CEF7AF92170DBBD10039B4DA /* SRTBusNumDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF7AF90170DBBD10039B4DA /* SRTBusNumDetailViewController.xib */; };
+		CEF7AF99170DBD450039B4DA /* SRTBusNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF7AF97170DBD440039B4DA /* SRTBusNumViewController.xib */; };
+		CEF82237170C68B90050D00A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF82236170C68B90050D00A /* UIKit.framework */; };
+		CEF82239170C68B90050D00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF82238170C68B90050D00A /* Foundation.framework */; };
+		CEF8223B170C68B90050D00A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8223A170C68B90050D00A /* CoreGraphics.framework */; };
+		CEF82241170C68B90050D00A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF8223F170C68B90050D00A /* InfoPlist.strings */; };
+		CEF82243170C68B90050D00A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF82242170C68B90050D00A /* main.m */; };
+		CEF82247170C68B90050D00A /* SRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF82246170C68B90050D00A /* SRTAppDelegate.m */; };
+		CEF8225B170C68B90050D00A /* SRTStationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF82259170C68B90050D00A /* SRTStationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE280137170D31710075BB79 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = res/bus.png; sourceTree = "<group>"; };
+		CE280138170D31710075BB79 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass.png; path = res/compass.png; sourceTree = "<group>"; };
+		CE280139170D31710075BB79 /* current_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = current_bottom.png; path = res/current_bottom.png; sourceTree = "<group>"; };
+		CE28013A170D31710075BB79 /* current_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = current_top.png; path = res/current_top.png; sourceTree = "<group>"; };
+		CE28013B170D31710075BB79 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail.png; path = res/detail.png; sourceTree = "<group>"; };
+		CE28013C170D31710075BB79 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite.png; path = res/favorite.png; sourceTree = "<group>"; };
+		CE28013E170D31710075BB79 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher.png; path = res/ic_launcher.png; sourceTree = "<group>"; };
+		CE280141170D31710075BB79 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = res/line.png; sourceTree = "<group>"; };
+		CE280145170D31710075BB79 /* more_set_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more_set_line.png; path = res/more_set_line.png; sourceTree = "<group>"; };
+		CE280146170D31710075BB79 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = res/more.png; sourceTree = "<group>"; };
+		CE28014B170D31710075BB79 /* position.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = position.png; path = res/position.png; sourceTree = "<group>"; };
+		CE28014C170D31710075BB79 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = res/refresh.png; sourceTree = "<group>"; };
+		CE28014F170D31710075BB79 /* run_current_station.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run_current_station.9.png; path = res/run_current_station.9.png; sourceTree = "<group>"; };
+		CE280150170D31710075BB79 /* run_station.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run_station.9.png; path = res/run_station.9.png; sourceTree = "<group>"; };
+		CE280157170D31710075BB79 /* set_line_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set_line_more.png; path = res/set_line_more.png; sourceTree = "<group>"; };
+		CE280158170D31710075BB79 /* set_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set_line.png; path = res/set_line.png; sourceTree = "<group>"; };
+		CE280159170D31710075BB79 /* start_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start_icon.png; path = res/start_icon.png; sourceTree = "<group>"; };
+		CE28015A170D31710075BB79 /* station_bus_item_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = station_bus_item_bg.png; path = res/station_bus_item_bg.png; sourceTree = "<group>"; };
+		CE28015B170D31710075BB79 /* station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = station.png; path = res/station.png; sourceTree = "<group>"; };
+		CE28015E170D31710075BB79 /* tab_favorite_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_favorite_icon.png; path = res/tab_favorite_icon.png; sourceTree = "<group>"; };
+		CE280161170D31710075BB79 /* tab_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_line.png; path = res/tab_line.png; sourceTree = "<group>"; };
+		CE280165170D31710075BB79 /* tab_station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_station.png; path = res/tab_station.png; sourceTree = "<group>"; };
+		CE28019F170D31890075BB79 /* SRTAppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTAppHelper.h; path = util/SRTAppHelper.h; sourceTree = "<group>"; };
+		CE2801A0170D31890075BB79 /* SRTAppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTAppHelper.m; path = util/SRTAppHelper.m; sourceTree = "<group>"; };
+		CE2801A1170D31890075BB79 /* SRTResourcesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTResourcesHelper.h; path = util/SRTResourcesHelper.h; sourceTree = "<group>"; };
+		CE2801A2170D31890075BB79 /* SRTResourcesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTResourcesHelper.m; path = util/SRTResourcesHelper.m; sourceTree = "<group>"; };
+		CE2801AA170DA91F0075BB79 /* SRTStationResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTStationResultCell.h; path = view/SRTStationResultCell.h; sourceTree = "<group>"; };
+		CE2801AB170DA91F0075BB79 /* SRTStationResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTStationResultCell.m; path = view/SRTStationResultCell.m; sourceTree = "<group>"; };
+		CE500151170DBDF20082DD6D /* SRTStationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTStationDetailViewController.h; path = vctrl/SRTStationDetailViewController.h; sourceTree = "<group>"; };
+		CE500152170DBDF20082DD6D /* SRTStationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTStationDetailViewController.m; path = vctrl/SRTStationDetailViewController.m; sourceTree = "<group>"; };
+		CE500153170DBDF20082DD6D /* SRTStationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTStationDetailViewController.xib; path = vctrl/SRTStationDetailViewController.xib; sourceTree = "<group>"; };
+		CE500156170DBF1F0082DD6D /* SRTStationDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTStationDetailCell.xib; path = view/SRTStationDetailCell.xib; sourceTree = "<group>"; };
+		CE500158170DC4680082DD6D /* SRTStationDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTStationDetailCell.h; path = view/SRTStationDetailCell.h; sourceTree = "<group>"; };
+		CE500159170DC4680082DD6D /* SRTStationDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTStationDetailCell.m; path = view/SRTStationDetailCell.m; sourceTree = "<group>"; };
+		CE50015B170E6D1C0082DD6D /* SRTBusNumDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTBusNumDetailCell.xib; path = view/SRTBusNumDetailCell.xib; sourceTree = "<group>"; };
+		CE50015D170E71860082DD6D /* SRTBusNumDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTBusNumDetailCell.h; path = view/SRTBusNumDetailCell.h; sourceTree = "<group>"; };
+		CE50015E170E71870082DD6D /* SRTBusNumDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTBusNumDetailCell.m; path = view/SRTBusNumDetailCell.m; sourceTree = "<group>"; };
+		CE500162170E7B980082DD6D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = ref/JSONKIT/JSONKit.h; sourceTree = "<group>"; };
+		CE500163170E7B980082DD6D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = ref/JSONKIT/JSONKit.m; sourceTree = "<group>"; };
+		CE5E6B6D170F09DD00E9CB76 /* SRTBusNumSearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTBusNumSearchResultCell.xib; path = view/SRTBusNumSearchResultCell.xib; sourceTree = "<group>"; };
+		CE5E6B6F170F0A0900E9CB76 /* SRTBusNumSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTBusNumSearchResultCell.h; path = view/SRTBusNumSearchResultCell.h; sourceTree = "<group>"; };
+		CE5E6B70170F0A0900E9CB76 /* SRTBusNumSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTBusNumSearchResultCell.m; path = view/SRTBusNumSearchResultCell.m; sourceTree = "<group>"; };
+		CE61B88A1711CF380024A81B /* SRTStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTStation.h; path = model/SRTStation.h; sourceTree = "<group>"; };
+		CE61B88B1711CF380024A81B /* SRTStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTStation.m; path = model/SRTStation.m; sourceTree = "<group>"; };
+		CE61B88E1711CF790024A81B /* SRTBusLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTBusLine.h; path = model/SRTBusLine.h; sourceTree = "<group>"; };
+		CE61B88F1711CF790024A81B /* SRTBusLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTBusLine.m; path = model/SRTBusLine.m; sourceTree = "<group>"; };
+		CE61B8911711D2DA0024A81B /* SRTFavoriteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTFavoriteHelper.h; path = util/SRTFavoriteHelper.h; sourceTree = "<group>"; };
+		CE61B8921711D2DA0024A81B /* SRTFavoriteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTFavoriteHelper.m; path = util/SRTFavoriteHelper.m; sourceTree = "<group>"; };
+		CE61B8981713D95F0024A81B /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		CE61B8991713D95F0024A81B /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		CE910972170D290700AD60B0 /* SRTStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTStationViewController.h; path = vctrl/SRTStationViewController.h; sourceTree = "<group>"; };
+		CE910973170D290700AD60B0 /* SRTStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTStationViewController.m; path = vctrl/SRTStationViewController.m; sourceTree = "<group>"; };
+		CE910974170D290700AD60B0 /* SRTBusNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTBusNumViewController.h; path = vctrl/SRTBusNumViewController.h; sourceTree = "<group>"; };
+		CE910975170D290700AD60B0 /* SRTBusNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTBusNumViewController.m; path = vctrl/SRTBusNumViewController.m; sourceTree = "<group>"; };
+		CE91098D170D2F7500AD60B0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CED2861A17179C3600BE2EF8 /* SRTNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTNetworkHelper.h; path = util/SRTNetworkHelper.h; sourceTree = "<group>"; };
+		CED2861B17179C3600BE2EF8 /* SRTNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTNetworkHelper.m; path = util/SRTNetworkHelper.m; sourceTree = "<group>"; };
+		CED2861D17179C8F00BE2EF8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CED2861F17185B6500BE2EF8 /* SRTHttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTHttpHelper.h; path = util/SRTHttpHelper.h; sourceTree = "<group>"; };
+		CED2862017185B6500BE2EF8 /* SRTHttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTHttpHelper.m; path = util/SRTHttpHelper.m; sourceTree = "<group>"; };
+		CEE4F0BD171646500058B1BF /* SRTCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTCacheHelper.h; path = util/SRTCacheHelper.h; sourceTree = "<group>"; };
+		CEE4F0BE171646500058B1BF /* SRTCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTCacheHelper.m; path = util/SRTCacheHelper.m; sourceTree = "<group>"; };
+		CEE4F0C11716E5B60058B1BF /* SRTToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTToolbar.h; path = vctrl/SRTToolbar.h; sourceTree = "<group>"; };
+		CEE4F0C21716E5B60058B1BF /* SRTToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTToolbar.m; path = vctrl/SRTToolbar.m; sourceTree = "<group>"; };
+		CEE5C99A170D27AE007A8817 /* SRTFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTFavoriteViewController.h; path = vctrl/SRTFavoriteViewController.h; sourceTree = "<group>"; };
+		CEE5C99B170D27AE007A8817 /* SRTFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTFavoriteViewController.m; path = vctrl/SRTFavoriteViewController.m; sourceTree = "<group>"; };
+		CEE5C99C170D27AE007A8817 /* SRTFavoriteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTFavoriteViewController.xib; path = vctrl/SRTFavoriteViewController.xib; sourceTree = "<group>"; };
+		CEE5C99F170D2840007A8817 /* SRTMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTMoreViewController.h; path = vctrl/SRTMoreViewController.h; sourceTree = "<group>"; };
+		CEE5C9A0170D2841007A8817 /* SRTMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTMoreViewController.m; path = vctrl/SRTMoreViewController.m; sourceTree = "<group>"; };
+		CEE5C9A1170D2841007A8817 /* SRTMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTMoreViewController.xib; path = vctrl/SRTMoreViewController.xib; sourceTree = "<group>"; };
+		CEF7AF8C170DA98A0039B4DA /* SRTStationResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTStationResultCell.xib; path = view/SRTStationResultCell.xib; sourceTree = "<group>"; };
+		CEF7AF8E170DBBD10039B4DA /* SRTBusNumDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTBusNumDetailViewController.h; path = vctrl/SRTBusNumDetailViewController.h; sourceTree = "<group>"; };
+		CEF7AF8F170DBBD10039B4DA /* SRTBusNumDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRTBusNumDetailViewController.m; path = vctrl/SRTBusNumDetailViewController.m; sourceTree = "<group>"; };
+		CEF7AF90170DBBD10039B4DA /* SRTBusNumDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRTBusNumDetailViewController.xib; path = vctrl/SRTBusNumDetailViewController.xib; sourceTree = "<group>"; };
+		CEF7AF98170DBD440039B4DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SzgjRealTime/en.lproj/SRTBusNumViewController.xib; sourceTree = "<group>"; };
+		CEF82232170C68B90050D00A /* SzgjRealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SzgjRealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF82236170C68B90050D00A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF82238170C68B90050D00A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF8223A170C68B90050D00A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF8223E170C68B90050D00A /* SzgjRealTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SzgjRealTime-Info.plist"; sourceTree = "<group>"; };
+		CEF82240170C68B90050D00A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF82242170C68B90050D00A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF82244170C68B90050D00A /* SzgjRealTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SzgjRealTime-Prefix.pch"; sourceTree = "<group>"; };
+		CEF82245170C68B90050D00A /* SRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTAppDelegate.h; sourceTree = "<group>"; };
+		CEF82246170C68B90050D00A /* SRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTAppDelegate.m; sourceTree = "<group>"; };
+		CEF8225A170C68B90050D00A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRTStationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF8222F170C68B90050D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2861E17179C8F00BE2EF8 /* SystemConfiguration.framework in Frameworks */,
+				CEF82237170C68B90050D00A /* UIKit.framework in Frameworks */,
+				CEF82239170C68B90050D00A /* Foundation.framework in Frameworks */,
+				CEF8223B170C68B90050D00A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE500160170E7B0D0082DD6D /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE500162170E7B980082DD6D /* JSONKit.h */,
+				CE500163170E7B980082DD6D /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		CE500161170E7B1E0082DD6D /* ASIHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ASIHttp;
+			sourceTree = "<group>";
+		};
+		CED28618171798C400BE2EF8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		CEF82227170C68B90050D00A = {
+			isa = PBXGroup;
+			children = (
+				CE91098D170D2F7500AD60B0 /* Icon.png */,
+				CEF8223C170C68B90050D00A /* SzgjRealTime */,
+				CEF82235170C68B90050D00A /* Frameworks */,
+				CEF82233170C68B90050D00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF82233170C68B90050D00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF82232170C68B90050D00A /* SzgjRealTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF82235170C68B90050D00A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED2861D17179C8F00BE2EF8 /* SystemConfiguration.framework */,
+				CEF82236170C68B90050D00A /* UIKit.framework */,
+				CEF82238170C68B90050D00A /* Foundation.framework */,
+				CEF8223A170C68B90050D00A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF8223C170C68B90050D00A /* SzgjRealTime */ = {
+			isa = PBXGroup;
+			children = (
+				CEF82263170C69CD0050D00A /* model */,
+				CEF82265170C69E80050D00A /* ref */,
+				CEF82266170C69FB0050D00A /* res */,
+				CEF82245170C68B90050D00A /* SRTAppDelegate.h */,
+				CEF82246170C68B90050D00A /* SRTAppDelegate.m */,
+				CEF8223D170C68B90050D00A /* Supporting Files */,
+				CEF82264170C69DB0050D00A /* util */,
+				CEF82261170C69A30050D00A /* vctl */,
+				CEF82262170C69BF0050D00A /* view */,
+			);
+			path = SzgjRealTime;
+			sourceTree = "<group>";
+		};
+		CEF8223D170C68B90050D00A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8223E170C68B90050D00A /* SzgjRealTime-Info.plist */,
+				CEF8223F170C68B90050D00A /* InfoPlist.strings */,
+				CEF82242170C68B90050D00A /* main.m */,
+				CEF82244170C68B90050D00A /* SzgjRealTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF82261170C69A30050D00A /* vctl */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7AF8E170DBBD10039B4DA /* SRTBusNumDetailViewController.h */,
+				CEF7AF8F170DBBD10039B4DA /* SRTBusNumDetailViewController.m */,
+				CEF7AF90170DBBD10039B4DA /* SRTBusNumDetailViewController.xib */,
+				CE910974170D290700AD60B0 /* SRTBusNumViewController.h */,
+				CE910975170D290700AD60B0 /* SRTBusNumViewController.m */,
+				CEF7AF97170DBD440039B4DA /* SRTBusNumViewController.xib */,
+				CEE5C99A170D27AE007A8817 /* SRTFavoriteViewController.h */,
+				CEE5C99B170D27AE007A8817 /* SRTFavoriteViewController.m */,
+				CEE5C99C170D27AE007A8817 /* SRTFavoriteViewController.xib */,
+				CEE5C99F170D2840007A8817 /* SRTMoreViewController.h */,
+				CEE5C9A0170D2841007A8817 /* SRTMoreViewController.m */,
+				CEE5C9A1170D2841007A8817 /* SRTMoreViewController.xib */,
+				CE910972170D290700AD60B0 /* SRTStationViewController.h */,
+				CE910973170D290700AD60B0 /* SRTStationViewController.m */,
+				CEF82259170C68B90050D00A /* SRTStationViewController.xib */,
+				CE500151170DBDF20082DD6D /* SRTStationDetailViewController.h */,
+				CE500152170DBDF20082DD6D /* SRTStationDetailViewController.m */,
+				CE500153170DBDF20082DD6D /* SRTStationDetailViewController.xib */,
+				CEE4F0C11716E5B60058B1BF /* SRTToolbar.h */,
+				CEE4F0C21716E5B60058B1BF /* SRTToolbar.m */,
+			);
+			name = vctl;
+			sourceTree = "<group>";
+		};
+		CEF82262170C69BF0050D00A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE50015D170E71860082DD6D /* SRTBusNumDetailCell.h */,
+				CE50015E170E71870082DD6D /* SRTBusNumDetailCell.m */,
+				CE50015B170E6D1C0082DD6D /* SRTBusNumDetailCell.xib */,
+				CE500158170DC4680082DD6D /* SRTStationDetailCell.h */,
+				CE500159170DC4680082DD6D /* SRTStationDetailCell.m */,
+				CE500156170DBF1F0082DD6D /* SRTStationDetailCell.xib */,
+				CE2801AA170DA91F0075BB79 /* SRTStationResultCell.h */,
+				CE2801AB170DA91F0075BB79 /* SRTStationResultCell.m */,
+				CEF7AF8C170DA98A0039B4DA /* SRTStationResultCell.xib */,
+				CE5E6B6D170F09DD00E9CB76 /* SRTBusNumSearchResultCell.xib */,
+				CE5E6B6F170F0A0900E9CB76 /* SRTBusNumSearchResultCell.h */,
+				CE5E6B70170F0A0900E9CB76 /* SRTBusNumSearchResultCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CEF82263170C69CD0050D00A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE61B8981713D95F0024A81B /* CustomObject.h */,
+				CE61B8991713D95F0024A81B /* CustomObject.m */,
+				CE61B88A1711CF380024A81B /* SRTStation.h */,
+				CE61B88B1711CF380024A81B /* SRTStation.m */,
+				CE61B88E1711CF790024A81B /* SRTBusLine.h */,
+				CE61B88F1711CF790024A81B /* SRTBusLine.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CEF82264170C69DB0050D00A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				CE28019F170D31890075BB79 /* SRTAppHelper.h */,
+				CE2801A0170D31890075BB79 /* SRTAppHelper.m */,
+				CE2801A1170D31890075BB79 /* SRTResourcesHelper.h */,
+				CE2801A2170D31890075BB79 /* SRTResourcesHelper.m */,
+				CE61B8911711D2DA0024A81B /* SRTFavoriteHelper.h */,
+				CE61B8921711D2DA0024A81B /* SRTFavoriteHelper.m */,
+				CEE4F0BD171646500058B1BF /* SRTCacheHelper.h */,
+				CEE4F0BE171646500058B1BF /* SRTCacheHelper.m */,
+				CED2861A17179C3600BE2EF8 /* SRTNetworkHelper.h */,
+				CED2861B17179C3600BE2EF8 /* SRTNetworkHelper.m */,
+				CED2861F17185B6500BE2EF8 /* SRTHttpHelper.h */,
+				CED2862017185B6500BE2EF8 /* SRTHttpHelper.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		CEF82265170C69E80050D00A /* ref */ = {
+			isa = PBXGroup;
+			children = (
+				CED28618171798C400BE2EF8 /* Reachability */,
+				CE500161170E7B1E0082DD6D /* ASIHttp */,
+				CE500160170E7B0D0082DD6D /* JSONKit */,
+			);
+			name = ref;
+			sourceTree = "<group>";
+		};
+		CEF82266170C69FB0050D00A /* res */ = {
+			isa = PBXGroup;
+			children = (
+				CE280137170D31710075BB79 /* bus.png */,
+				CE280138170D31710075BB79 /* compass.png */,
+				CE280139170D31710075BB79 /* current_bottom.png */,
+				CE28013A170D31710075BB79 /* current_top.png */,
+				CE28013B170D31710075BB79 /* detail.png */,
+				CE28013C170D31710075BB79 /* favorite.png */,
+				CE28013E170D31710075BB79 /* ic_launcher.png */,
+				CE280141170D31710075BB79 /* line.png */,
+				CE280145170D31710075BB79 /* more_set_line.png */,
+				CE280146170D31710075BB79 /* more.png */,
+				CE28014B170D31710075BB79 /* position.png */,
+				CE28014C170D31710075BB79 /* refresh.png */,
+				CE28014F170D31710075BB79 /* run_current_station.9.png */,
+				CE280150170D31710075BB79 /* run_station.9.png */,
+				CE280157170D31710075BB79 /* set_line_more.png */,
+				CE280158170D31710075BB79 /* set_line.png */,
+				CE280159170D31710075BB79 /* start_icon.png */,
+				CE28015A170D31710075BB79 /* station_bus_item_bg.png */,
+				CE28015B170D31710075BB79 /* station.png */,
+				CE28015E170D31710075BB79 /* tab_favorite_icon.png */,
+				CE280161170D31710075BB79 /* tab_line.png */,
+				CE280165170D31710075BB79 /* tab_station.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF82231170C68B90050D00A /* SzgjRealTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF8225E170C68B90050D00A /* Build configuration list for PBXNativeTarget "SzgjRealTime" */;
+			buildPhases = (
+				CEF8222E170C68B90050D00A /* Sources */,
+				CEF8222F170C68B90050D00A /* Frameworks */,
+				CEF82230170C68B90050D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SzgjRealTime;
+			productName = SzgjRealTime;
+			productReference = CEF82232170C68B90050D00A /* SzgjRealTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF82229170C68B90050D00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEF8222C170C68B90050D00A /* Build configuration list for PBXProject "SzgjRealTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEF82227170C68B90050D00A;
+			productRefGroup = CEF82233170C68B90050D00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF82231170C68B90050D00A /* SzgjRealTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF82230170C68B90050D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF82241170C68B90050D00A /* InfoPlist.strings in Resources */,
+				CEF8225B170C68B90050D00A /* SRTStationViewController.xib in Resources */,
+				CEE5C99E170D27AE007A8817 /* SRTFavoriteViewController.xib in Resources */,
+				CEE5C9A3170D2843007A8817 /* SRTMoreViewController.xib in Resources */,
+				CE91098E170D2F7500AD60B0 /* Icon.png in Resources */,
+				CE28016D170D31710075BB79 /* bus.png in Resources */,
+				CE28016E170D31710075BB79 /* compass.png in Resources */,
+				CE28016F170D31710075BB79 /* current_bottom.png in Resources */,
+				CE280170170D31710075BB79 /* current_top.png in Resources */,
+				CE280171170D31710075BB79 /* detail.png in Resources */,
+				CE280172170D31710075BB79 /* favorite.png in Resources */,
+				CE280174170D31710075BB79 /* ic_launcher.png in Resources */,
+				CE280177170D31710075BB79 /* line.png in Resources */,
+				CE28017B170D31710075BB79 /* more_set_line.png in Resources */,
+				CE28017C170D31710075BB79 /* more.png in Resources */,
+				CE280181170D31710075BB79 /* position.png in Resources */,
+				CE280182170D31710075BB79 /* refresh.png in Resources */,
+				CE280185170D31710075BB79 /* run_current_station.9.png in Resources */,
+				CE280186170D31710075BB79 /* run_station.9.png in Resources */,
+				CE28018D170D31710075BB79 /* set_line_more.png in Resources */,
+				CE28018E170D31710075BB79 /* set_line.png in Resources */,
+				CE28018F170D31710075BB79 /* start_icon.png in Resources */,
+				CE280190170D31710075BB79 /* station_bus_item_bg.png in Resources */,
+				CE280191170D31710075BB79 /* station.png in Resources */,
+				CE280194170D31710075BB79 /* tab_favorite_icon.png in Resources */,
+				CE280197170D31710075BB79 /* tab_line.png in Resources */,
+				CE28019B170D31710075BB79 /* tab_station.png in Resources */,
+				CEF7AF8D170DA98A0039B4DA /* SRTStationResultCell.xib in Resources */,
+				CEF7AF92170DBBD10039B4DA /* SRTBusNumDetailViewController.xib in Resources */,
+				CEF7AF99170DBD450039B4DA /* SRTBusNumViewController.xib in Resources */,
+				CE500155170DBDF20082DD6D /* SRTStationDetailViewController.xib in Resources */,
+				CE500157170DBF1F0082DD6D /* SRTStationDetailCell.xib in Resources */,
+				CE50015C170E6D1C0082DD6D /* SRTBusNumDetailCell.xib in Resources */,
+				CE5E6B6E170F09DD00E9CB76 /* SRTBusNumSearchResultCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF8222E170C68B90050D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF82243170C68B90050D00A /* main.m in Sources */,
+				CEF82247170C68B90050D00A /* SRTAppDelegate.m in Sources */,
+				CEE5C99D170D27AE007A8817 /* SRTFavoriteViewController.m in Sources */,
+				CEE5C9A2170D2843007A8817 /* SRTMoreViewController.m in Sources */,
+				CE910976170D290700AD60B0 /* SRTStationViewController.m in Sources */,
+				CE910977170D290700AD60B0 /* SRTBusNumViewController.m in Sources */,
+				CE2801A3170D31890075BB79 /* SRTAppHelper.m in Sources */,
+				CE2801A4170D31890075BB79 /* SRTResourcesHelper.m in Sources */,
+				CE2801AC170DA91F0075BB79 /* SRTStationResultCell.m in Sources */,
+				CEF7AF91170DBBD10039B4DA /* SRTBusNumDetailViewController.m in Sources */,
+				CE500154170DBDF20082DD6D /* SRTStationDetailViewController.m in Sources */,
+				CE50015A170DC4680082DD6D /* SRTStationDetailCell.m in Sources */,
+				CE50015F170E71870082DD6D /* SRTBusNumDetailCell.m in Sources */,
+				CE500164170E7B980082DD6D /* JSONKit.m in Sources */,
+				CE5E6B71170F0A0900E9CB76 /* SRTBusNumSearchResultCell.m in Sources */,
+				CE61B88C1711CF380024A81B /* SRTStation.m in Sources */,
+				CE61B8901711CF790024A81B /* SRTBusLine.m in Sources */,
+				CE61B8931711D2DA0024A81B /* SRTFavoriteHelper.m in Sources */,
+				CE61B89A1713D95F0024A81B /* CustomObject.m in Sources */,
+				CEE4F0BF171646500058B1BF /* SRTCacheHelper.m in Sources */,
+				CEE4F0C31716E5B60058B1BF /* SRTToolbar.m in Sources */,
+				CED2861C17179C3600BE2EF8 /* SRTNetworkHelper.m in Sources */,
+				CED2862117185B6500BE2EF8 /* SRTHttpHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF7AF97170DBD440039B4DA /* SRTBusNumViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF7AF98170DBD440039B4DA /* en */,
+			);
+			name = SRTBusNumViewController.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CEF8223F170C68B90050D00A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF82240170C68B90050D00A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEF82259170C68B90050D00A /* SRTStationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF8225A170C68B90050D00A /* en */,
+			);
+			name = SRTStationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF8225C170C68B90050D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 伟 代 (GUPTYQZB4R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "7FA49234-4698-4705-869F-EF57B8BCC49B";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF8225D170C68B90050D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 伟 代 (GUPTYQZB4R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7FA49234-4698-4705-869F-EF57B8BCC49B";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF8225F170C68B90050D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SzgjRealTime/SzgjRealTime-Prefix.pch";
+				INFOPLIST_FILE = "SzgjRealTime/SzgjRealTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF82260170C68B90050D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SzgjRealTime/SzgjRealTime-Prefix.pch";
+				INFOPLIST_FILE = "SzgjRealTime/SzgjRealTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF8222C170C68B90050D00A /* Build configuration list for PBXProject "SzgjRealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8225C170C68B90050D00A /* Debug */,
+				CEF8225D170C68B90050D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF8225E170C68B90050D00A /* Build configuration list for PBXNativeTarget "SzgjRealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8225F170C68B90050D00A /* Debug */,
+				CEF82260170C68B90050D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF82229170C68B90050D00A /* Project object */;
+}
